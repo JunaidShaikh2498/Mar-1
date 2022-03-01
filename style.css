@@ -1,0 +1,22 @@
+.ball{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    left: 45%;
+    animation: ball 3s linear infinite;
+}
+@keyframes ball {
+    0%{
+       transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(400px);
+        background-color: rgb(10, 129, 129);
+    }
+    100%{
+        transform: translateY(-10px);
+        background-color:aqua;
+    }
+}
