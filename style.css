@@ -5,7 +5,7 @@
     border-radius: 50%;
     position: relative;
     left: 45%;
-    animation: ball 3s linear infinite;
+    animation: ball 1s linear infinite;
 }
 @keyframes ball {
     0%{
